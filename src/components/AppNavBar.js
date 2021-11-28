@@ -1,7 +1,9 @@
 import  React, { Fragment, useContext } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import UserContext from '../UserContext'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Image } from 'react-bootstrap'
+
+import brand from '../images/wallet.svg'
 
 const AppNavBar = () => {
     const { user, unsetUser } = useContext(UserContext);
@@ -25,8 +27,8 @@ const AppNavBar = () => {
       );
 
     return (
-        <Navbar bg='secondary' variant='dark' expand="lg">
-            <Navbar.Brand as={Link} to="/">Budget Checker</Navbar.Brand>
+        <Navbar variant='light' expand="lg">
+            <Navbar.Brand as={Link} to="/"><Image className='brand' src={brand}/> Budget Checker</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

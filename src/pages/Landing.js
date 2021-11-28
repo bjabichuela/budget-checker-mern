@@ -5,7 +5,7 @@ import '../index.css'
 
 const Landing = () => {
   return (
-    <Container className="hero" fluid></Container>
+    <Container className="hero" ></Container>
   )
 }
 
