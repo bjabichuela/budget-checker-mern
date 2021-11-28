@@ -27,7 +27,7 @@ a:any-link {
 
 .hero {
   height: 80vh;
-  width: 50%;
+  width: 100%;
   vertical-align: middle;
   padding-top: 2rem;
   background-image: url("./images/hero.jpg");
