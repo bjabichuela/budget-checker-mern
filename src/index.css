@@ -27,14 +27,18 @@ a:any-link {
 
 .hero {
   height: 80vh;
-  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: auto;
   vertical-align: middle;
-  padding-top: 2rem;
-  background-image: url("./images/hero.jpg");
-  background-size: cover;
+  padding: 0 2rem;
+  background-image: url("./images/BudgetChecker.png");
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .brand {
@@ -56,8 +60,8 @@ footer {
   display: block;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 485px) {
   .hero {
-    max-width: 100vw;
+    max-width: 100%;
   }
 }
