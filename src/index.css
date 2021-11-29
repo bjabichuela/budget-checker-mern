@@ -27,7 +27,7 @@ a:any-link {
 
 .hero {
   height: 80vh;
-  max-width: 800px;
+  max-width: 100%;
   margin: auto;
   overflow: auto;
   vertical-align: middle;
