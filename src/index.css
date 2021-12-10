@@ -35,6 +35,7 @@ a:any-link {
   background-image: url("./images/BudgetChecker.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
