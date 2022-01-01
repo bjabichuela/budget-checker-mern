@@ -7,7 +7,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col className='footer text-center' py-3='true' style={{ fontSize: 15 }}>
-                        Copyright &copy; 2021 | Built by John Abichuela
+                        Copyright &copy; 2022 | Built by John Abichuela
                     </Col>
                 </Row>
             </Container>
